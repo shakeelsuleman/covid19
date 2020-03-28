@@ -1,0 +1,29 @@
+---
+title: "Covid-19 Animation"
+author: "Shakeel Suleman"
+date: "28/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source('code.R')
+```
+
+## Covid-19
+
+This is an R Markdown document that shows an animation of Covid-19 cases in the UK and a separate animation for all countries of the world. 
+
+# Progress of case reports in the UK
+```{r echo = FALSE}
+uk + transition_reveal(dates)
+```
+
+# Animation of case reports in all countries
+
+
+```{r, echo=FALSE}
+world + transition_states(countriesAndTerritories, 2, 1)
+```
+
+
