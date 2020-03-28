@@ -4,4 +4,4 @@
 
 * [WHO Covid19 Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 
-*[Covid-19 Guiance for health professionals](https://www.gov.uk/government/collections/wuhan-novel-coronavirus)
+* [Covid-19 Guiance for health professionals](https://www.gov.uk/government/collections/wuhan-novel-coronavirus)
