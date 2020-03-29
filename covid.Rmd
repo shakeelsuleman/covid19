@@ -27,3 +27,10 @@ world + transition_states(countriesAndTerritories, 2, 1)
 ```
 
 
+# UK cumulative mortality
+
+```{r, echo=FALSE, warning = FALSE}
+ggplot(data = dh, aes(x = Date, y = UK)) +
+geom_col()
+```
+
