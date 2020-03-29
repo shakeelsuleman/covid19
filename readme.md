@@ -1,4 +1,4 @@
-# Covid-19 ECDC data
+# Covid-19 data
 
 * [Data download from ECDC Website](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
