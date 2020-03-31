@@ -1,4 +1,5 @@
 # Covid-19 data
+## Updated 31 March 2020
 
 * [Data download from ECDC Website](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
