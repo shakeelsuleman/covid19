@@ -1,5 +1,6 @@
-# Covid-19 data
-## Updated 31 March 2020
+# Covid-19 initial data analysis
+## Updated 12 June 2020
+## Shakeel Suleman
 
 * [Data download from ECDC Website](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
