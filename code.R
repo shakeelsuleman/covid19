@@ -11,19 +11,22 @@ data <- read.csv(tf)
 data$dates<- as.Date(data$dateRep, "%d/%m/%Y")
 
 
-uk<- ggplot(data = subset(data, countriesAndTerritories == "United_Kingdom" ), aes(x = dates, y = cases)) +
+uk<- ggplot(data = subset(data, countriesAndTerritories == "United_Kingdom" ), aes(x = dates, y = cases_weekly)) +
   geom_line(size = 2, color = "red")
 
 uk<- uk + labs(title = "Date:{frame_along}")
 
-world<- ggplot(data = data, aes(x = dates, y = cases, fill = countriesAndTerritories)) +
+uk + transition_reveal(dates)
+
+world<- ggplot(data = data, aes(x = dates, y = cases_weekly, fill = countriesAndTerritories)) +
   geom_col(show.legend = FALSE)
 
 world<- world + labs(title = "Country:{closest_state}")
 
-download.file("https://fingertips.phe.org.uk/documents/Historic%20COVID-19%20Dashboard%20Data.xlsx", "cov.xlsx", mode = "wb")
+##download.file("https://fingertips.phe.org.uk/documents/Historic%20COVID-19%20Dashboard%20Data.xlsx", "cov.xlsx", mode = "wb")
 
-dh<- read_xlsx("cov.xlsx", sheet = 3, skip = 6)
+##dh<- read_xlsx("cov.xlsx", sheet = 3, skip = 6)
+######
 
 
 
