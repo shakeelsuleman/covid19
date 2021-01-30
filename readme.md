@@ -1,6 +1,8 @@
 # Covid-19 initial data analysis
 ## Updated 12 June 2020
 ## Shakeel Suleman
+## Amended again to test on 30 January 2021
+# Just practising githun connection and updating.
 
 * [Data download from ECDC Website](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
